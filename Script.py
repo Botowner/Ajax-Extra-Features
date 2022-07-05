@@ -261,7 +261,7 @@ This module only works for my admins
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
     STATUS_TXT = """
-╭─[  ]──〄
+╭─[ <a href=https://t.me/cinemala_com1>ᴄɪɴᴇᴍᴀʟᴀ.ᴄᴏᴍ</a> ]──〄
 │
 ├📁 ᴛᴏᴛᴀʟ ғɪʟᴇs ɪɴ ᴅʙ: <code>{}</code>
 │
@@ -273,7 +273,7 @@ This module only works for my admins
 │
 ├🗄️ ᴀᴠᴀɪʟᴀʙʟᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code>
 │
-╰─[  ]──〄"""
+╰─[ <a href=https://t.me/cinemala_com1>ᴄɪɴᴇᴍᴀʟᴀ.ᴄᴏᴍ</a> ]──〄"""
     LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
     
 <b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {}(<code>{}</code>)</b>
