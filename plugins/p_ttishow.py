@@ -1,11 +1,11 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors.exceptions.bad_request_400 import MessageTooLong, PeerIdInvalid
-from info import ADMINS, LOG_CHANNEL, SUPPORT_CHAT
+from info import ADMINS, LOG_CHANNEL, SUPPORT_CHAT, MELCOW_PIC
 from database.users_chats_db import db
 from database.ia_filterdb import Media
 from utils import get_size, temp
-from Script import script
+from Script import script, MELCOW_ENG
 from pyrogram.errors import ChatAdminRequired
 
 """-----------------------------------------https://t.me/GetTGLink/4179 --------------------------------------"""
@@ -52,7 +52,19 @@ async def save_group(bot, message):
                     await (temp.MELCOW['welcome']).delete()
                 except:
                     pass
-            temp.MELCOW['welcome'] = await message.reply(f"<b>Hey ♥️ {u.mention}, Welcome to {message.chat.title}.../</b>")
+            temp.MELCOW['welcome'] = await message.reply_photo(
+                                                 photo=(MELCOW_PIC),
+                                                 caption=(MELCOW_ENG.format(u.mention, message.chat.title)),
+                                                 reply_markup=InlineKeyboardMarkup(
+                                                                         [[
+                                                                           InlineKeyboardButton("🔖 ʀᴇᴀᴅ ɢʀᴏᴜᴘ ʀᴜʟᴇs 🔖", url="https://telegra.ph/Group-Rules-07-03-2")
+                                                                           ],[
+                                                                           InlineKeyboardButton("🎭 ᴄʜᴀɴɴᴇʟ 🎭", url="https://t.me/cinemala_com1")
+
+                                                                         ]]
+                                                 ),
+                                                 parse_mode='html'
+)
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
