@@ -1488,7 +1488,6 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        else:
         cap = f"<b>🎪 Title:</b> {search}\n\n<b>👥 Requested by: {message.from_user.mention}</b>\n<b>❣ Powered by: <a href='https://t.me/cinemala_com1'>{message.chat.title}</a></b>"
     if imdb and imdb.get('poster'):
         try:
