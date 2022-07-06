@@ -1488,7 +1488,8 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>🎪 Title:</b> {search}\n\n<b>👥 Requested by: {message.from_user.mention}</b>\n<b>❣ Powered by: <a href='https://t.me/cinemala_com1'>{message.chat.title}</a></b>" if imdb and imdb.get('poster'):
+        cap = f"<b><i>🎪 ᴛɪᴛʟᴇ : {search}\n 👤 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}\n👥ɢʀᴏᴜᴘ : {message.chat.title}</i></b>"
+    if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(600)
