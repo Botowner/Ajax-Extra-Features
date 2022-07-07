@@ -174,7 +174,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"▣{get_size(file.file_size)}➢ {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -215,7 +215,7 @@ async def next_page(bot, query):
         )
         btn.append(
             [
-             InlineKeyboardButton("❄️ 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙿𝙼 ❄️", url=f"https://t.me/ccomautofilter_bot")]
+             InlineKeyboardButton("ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴄʜᴇᴄᴋ ᴜʀ ғɪʟᴇ", url=f"https://t.me/ccomfilterbot")]
         )
     elif off_set is None:
         btn.append(
@@ -231,7 +231,7 @@ async def next_page(bot, query):
         )
         btn.append(
             [
-             InlineKeyboardButton("❄️ 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙿𝙼 ❄️", url=f"https://t.me/ccomautofilter_bot")]
+             InlineKeyboardButton("ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴄʜᴇᴄᴋ ᴜʀ ғɪʟᴇ", url=f"https://t.me/ccomfilterbot")]
         )
     try:
         await query.edit_message_reply_markup(
@@ -1402,7 +1402,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"▣{get_size(file.file_size)}➢ {file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -1440,7 +1440,7 @@ async def auto_filter(client, msg, spoll=False):
         )
         btn.append(
             [
-             InlineKeyboardButton("❄️ 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙿𝙼 ❄️", url=f"https://t.me/ccomautofilter_bot")]
+             InlineKeyboardButton("ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴄʜᴇᴄᴋ ᴜʀ ғɪʟᴇ", url=f"https://t.me/ccomfilterbot")]
         )
       
     else:
@@ -1449,7 +1449,7 @@ async def auto_filter(client, msg, spoll=False):
         )
         btn.append(
             [
-             InlineKeyboardButton("❄️ 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙿𝙼 ❄️", url=f"https://t.me/ccomautofilter_bot")]
+             InlineKeyboardButton("ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴄʜᴇᴄᴋ ᴜʀ ғɪʟᴇ", url=f"https://t.me/ccomfilterbot")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
