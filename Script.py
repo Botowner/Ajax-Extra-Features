@@ -72,7 +72,7 @@ Note:- Give a user details
 5. /luck or /cownd - 𝚂𝙿𝙸𝙽 𝙰𝙽𝙳 𝚃𝚁𝚈 𝚈𝙾𝚄𝚁 𝙻𝚄𝙲𝙺"""
     DEPLOY_TXT = """ 🧐 <b>Any doubt contact me</b>
 
-𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙷𝙴 ᴛɪᴘs ₂.₀ 𝚁𝙴𝙿𝙾 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 <a href=https://t.me/Aswin_pm_Bot>ᴀꜱᴡɪɴ</a>
+𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙷𝙴 DᵤₗQᵤₑᵣ ₂.₀ 𝚁𝙴𝙿𝙾 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 <a href=https://t.me/Aswin_pm_Bot>ᴀꜱᴡɪɴ</a>
 """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
