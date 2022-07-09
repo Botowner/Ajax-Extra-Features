@@ -901,7 +901,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..?', callback_data='deploy')
             ],[
-            InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='report')
+            InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='fun')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1004,7 +1004,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..?', callback_data='deploy')
             ],[
-            InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='report')
+            InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='fun')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
