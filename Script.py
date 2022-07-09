@@ -56,7 +56,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂�
 
 ⪼ 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 ›
 
-<code>/batch https://t.me/xxxxxxxx/3 https://t.me/xxxxxxxxx/8</code>
+<code>/batch https://t.me/example.../3 https://t.me/example.../8</code>
 """
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
@@ -297,7 +297,7 @@ This module only works for my admins
 ➪ /short: 𝗎𝗌𝖾 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝖺𝗇𝖽 𝗐𝗂𝗍𝗁 𝗒𝗈𝗎𝗋 𝗅𝗂𝗇𝗄 𝗍𝗈 𝗀𝖾𝗍 𝗌𝗁𝗈𝗋𝗍𝖾𝖽 𝗅𝗂𝗇𝗄𝗌
 
 ➛𝖤𝗑𝖺𝗆𝗉𝗅𝖾:
-<code>/short https://youtu.be/***************</code>"""
+<code>/short https://youtu.be/example...</code>"""
 
     VIDEO_TXT ="""𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚅𝙸𝙳𝙴𝙾 𝙵𝚁𝙾𝙼 𝚈𝙾𝚄𝚃𝚄𝙱𝙴.
 
@@ -305,10 +305,10 @@ This module only works for my admins
 𝘠𝘰𝘶 𝘊𝘢𝘯 𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥 𝘈𝘯𝘺 𝘝𝘪𝘥𝘦𝘰 𝘍𝘳𝘰𝘮 𝘠𝘰𝘶𝘵𝘶𝘣𝘦
 
 𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚
-• 𝘛𝘺𝘱𝘦 /video or /mp4 𝘈𝘯𝘥 (https://youtu.be/***************)
+• 𝘛𝘺𝘱𝘦 /video or /mp4 𝘈𝘯𝘥 (https://youtu.be/example...)
 • 𝘌𝘹𝘢𝘮𝘱𝘭𝘦:
-<code>/mp4 https://youtu.be/***************</code>
-<code>/video https://youtu.be/***************</code>"""
+<code>/mp4 https://youtu.be/example...</code>
+<code>/video https://youtu.be/example...</code>"""
 
     ZOMBIES_TXT = """𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙺𝙸𝙲𝙺 𝚄𝚂𝙴𝚁𝚂
 
@@ -345,7 +345,7 @@ To Get Sticker ID
 𝘛𝘺𝘱𝘦 /ytthumb 𝘈𝘯𝘥 𝘝𝘪𝘥𝘦𝘰 𝘓𝘪𝘯𝘬
 
 • 𝘌𝘹𝘢𝘮𝘱𝘭𝘦
-<code>/ytthumb https://youtu.be/************""</code>"""
+<code>/ytthumb https://youtu.be/example...""</code>"""
 
     ABOOK_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝖠𝗎𝖽𝗂𝗈𝖻𝗈𝗈𝗄
 
@@ -418,5 +418,5 @@ Exᴀᴍᴘʟᴇ : ᴋɢғ ᴄʜᴀᴘᴛᴇʀ 2 2022
 
 കൂടുതൽ അറിയാൻ ഗ്രൂപ്പ്‌ റൂൾസ്‌ വായിക്കുക..
 
-⚠️ 𝙳𝚄𝙴 𝚃𝙾 𝙲𝙾𝙿𝚈𝚁𝙸𝙶𝙷𝚃 𝙸𝚂𝚂𝚄𝙴 𝙰𝙻𝙻 𝚃𝙷𝙴 𝙲𝙷𝙰𝚃𝚂 & 𝙵𝙸𝙻𝚃𝙴𝚁𝚂 𝚆𝙸𝙻𝙻 𝙱𝙴 𝙳𝙴𝙻𝙴𝚃𝙴𝙳 𝙸𝙽 10 𝙼𝙸𝙽⏱️.
+⚠️ 𝙳𝚄𝙴 𝚃𝙾 𝙲𝙾𝙿𝚈𝚁𝙸𝙶𝙷𝚃 𝙸𝚂𝚂𝚄𝙴 𝙰𝙻𝙻 𝚃𝙷𝙴 𝙵𝙸𝙻𝚃𝙴𝚁𝚂 𝚆𝙸𝙻𝙻 𝙱𝙴 𝙳𝙴𝙻𝙴𝚃𝙴𝙳 𝙸𝙽 10 𝙼𝙸𝙽⏱️.
 © ᴄɪɴᴇᴍᴀʟᴀ.ᴄᴏᴍ </b>"""
