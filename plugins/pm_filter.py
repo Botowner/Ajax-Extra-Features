@@ -836,7 +836,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("𝙸𝙼𝙰𝙶𝙴", callback_data='image')
             ],[
             InlineKeyboardButton('𝙷𝙾𝙼𝙴', callback_data='start'),
-            InlineKeyboardButton('𝙽𝙴𝚇𝚃', callback_data='next')
+            InlineKeyboardButton('𝙽𝙴𝚇𝚃', callback_data='fun')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -853,7 +853,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "next":
+    elif query.data == "fun":
         buttons = [[    
             InlineKeyboardButton('𝙵𝚄𝙽', callback_data='fun'), 
             InlineKeyboardButton('𝙹𝚂𝙾𝙽𝙴', callback_data='son'),
@@ -868,7 +868,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙺𝙸𝙲𝙺', callback_data='zombies')
             ],[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help'),
-            InlineKeyboardButton('𝙽𝙴𝚇𝚃', callback_data='next1')
+            InlineKeyboardButton('𝙽𝙴𝚇𝚃', callback_data='report')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -885,7 +885,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "next1":
+    elif query.data == "report":
         buttons = [[
             InlineKeyboardButton('𝚁𝙴𝙿𝙾𝚁𝚃', callback_data='report'),
             InlineKeyboardButton('𝚈𝚃-𝚃𝙷𝚄𝙼𝙱', callback_data='ytthumb'),
@@ -901,7 +901,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..?', callback_data='deploy')
             ],[
-            InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='next1')
+            InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='report')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -939,7 +939,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("𝙸𝙼𝙰𝙶𝙴", callback_data='image')
             ],[
             InlineKeyboardButton('𝙷𝙾𝙼𝙴', callback_data='start'),
-            InlineKeyboardButton('𝙽𝙴𝚇𝚃', callback_data='next')
+            InlineKeyboardButton('𝙽𝙴𝚇𝚃', callback_data='fun')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -956,7 +956,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "next":
+    elif query.data == "fun":
         buttons = [[
             InlineKeyboardButton('𝙵𝚄𝙽', callback_data='fun'), 
             InlineKeyboardButton('𝙹𝚂𝙾𝙽𝙴', callback_data='son'),
@@ -971,7 +971,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙺𝙸𝙲𝙺', callback_data='zombies')
             ],[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='hellp'),
-            InlineKeyboardButton('𝙽𝙴𝚇𝚃', callback_data='next1')
+            InlineKeyboardButton('𝙽𝙴𝚇𝚃', callback_data='report')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -988,7 +988,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "next1":
+    elif query.data == "report":
         buttons = [[
             InlineKeyboardButton('𝚁𝙴𝙿𝙾𝚁𝚃', callback_data='report'),
             InlineKeyboardButton('𝚈𝚃-𝚃𝙷𝚄𝙼𝙱', callback_data='ytthumb'),
@@ -1004,7 +1004,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..?', callback_data='deploy')
             ],[
-            InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='next1')
+            InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='report')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
